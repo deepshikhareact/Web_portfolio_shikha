@@ -7,7 +7,7 @@ const Activity = () => {
                 Activities
             </h1>
             <div className="centered">
-                <img loading="lazy" id='live-activity' src="Link-required" alt="Github Activity Info" />
+                <img loading="lazy" id='live-activity' src={"/Activities.jpg"} alt="Github Activity Info" />
                 <img loading="lazy" id='contributeImage' src={"/gitcontribution.jpg"} alt="Github Contribution Graph" />
             </div>
         </div>

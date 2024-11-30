@@ -22,10 +22,9 @@ const About = () => {
     "Chat-GPT",
   ];
 
-  const d = new Date("2001-11-12");
+  const d = new Date("1999-11-12");
   const d2 = new Date();
-  var years = d2.getFullYear() - d.getFullYear()
-
+  var years = d2.getFullYear() - d.getFullYear();
 
   return (
     <div className="About" id="About">
@@ -35,13 +34,21 @@ const About = () => {
           <div className="name">
             <h1>Deepshikha</h1> <p>deep.shikha.react@gmail.com</p>
             <p>
-              <a aria-label="Deepahikha github account link" target="_blank" href="https://github.com/Deepshikha252/">
+              <a
+                aria-label="Deepahikha github account link"
+                target="_blank"
+                href="https://github.com/Deepshikha252/"
+              >
                 https://github.com/account
               </a>
             </p>
             <p style={{ paddingTop: ".5rem", color: "var(--primary)" }}>
-              <a aria-label=" github account link" target="_blank" href="https://mediajenie.com/">
-              Working At MediaJenie
+              <a
+                aria-label=" github account link"
+                target="_blank"
+                href="https://mediajenie.com/"
+              >
+                Working At Showoffclicks.com
               </a>
             </p>
           </div>
@@ -50,7 +57,7 @@ const About = () => {
           <div className="area">
             <span>
               <h3>Current Location</h3>
-              <p>Pune</p>
+              <p>Noida, 201301</p>
             </span>
             <span>
               <h3>Hometown</h3>
@@ -71,7 +78,9 @@ const About = () => {
           <div className="education">
             <h3>Education</h3>
             <p>Education level : Graduate</p>
-            <p>Bachelor of Computer Science  from MAKAUT University West Bengal</p>
+            <p>
+              Bachelor of Computer Science from MAKAUT University West Bengal
+            </p>
             <p>Batch : 2016-2020</p>
           </div>
           <div className="skills">
